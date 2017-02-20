@@ -64,7 +64,7 @@ public partial class StoredProcedures
 			{
 				Dictionary<string, string> dict = new Dictionary<string, string>();
 				// initialize the first record
-				dict.Add("Name", Name);
+				dict.Add("Name", Name + "\r\n");
 				
 
 				string patt = @"(?s)/\*.+?\*/";
